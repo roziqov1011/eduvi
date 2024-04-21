@@ -1,6 +1,30 @@
+.fatherShop{
+    width: 100%;
+margin-top: 40px;
+}
+.shopDivider{
+    width: 100%;
+   
+display: flex;
+}
+.leftShop{
+width: 400px;
+height: 540px;
+
+}
+.rightShop{
+width: 840px;
 
 
 
+}
 
-
-
+.Shop__list{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    flex-wrap: wrap;
+}
+.pagiShop{
+    margin: 0 auto;
+}
