@@ -1,0 +1,134 @@
+.fatherShop{
+    width: 100%;
+margin-top: 40px;
+}
+.shopDivider{
+    width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.rightShop{
+width: 840px;
+}
+
+.Shop__list{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+.pagiShop{
+    text-align: center;
+}
+
+/* Shop.scss */
+
+/* Define styles for the active button */
+.active {
+    border-radius: 10px;
+    box-shadow: 0px 15px 50px 0px rgba(255, 102, 82, 0.2);
+    background: rgb(255, 102, 82);
+    color: #fff; /* Change to the desired text color for active button */
+  }
+  
+  /* Additional styles for button */
+  button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 131px;
+    height: 60px;
+ 
+    border-radius: 5px;
+    border-radius: 10px;
+
+    background: rgb(255, 255, 255);
+  }
+  .Shop__filters{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+// LEFT
+.leftShop{
+  width: 400px;
+
+  
+  }
+.shopPopular{
+  width: 400px;
+height: 540px;
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.popular__title{
+  color: rgb(10, 3, 60);
+
+font-size: 30px;
+font-weight: 600;
+margin-top: -5px;
+
+text-align: left;
+}
+.popular__box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: -20px;
+
+}
+// LEFT-CARDS 
+.popular__card{
+width: 400px;
+height: 140px;
+border-radius: 10px;
+background: rgb(255, 255, 255);
+margin: 5px 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+:hover{
+  cursor: pointer;
+}
+}
+.popular__card__img{
+  width: 75.68px;
+height: 90px;
+
+margin-right: 20px;
+
+}
+.popular__card__title{
+  color: rgb(10, 3, 60);
+  width: 228px;
+  height: 40px;
+font-size: 18px;
+font-weight: 600;
+margin: 0px 0px;
+}
+.popular__card__price{
+  color: rgb(255, 102, 82);
+
+font-size: 18px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.shopPopular2{
+  margin-top: 40px;
+}
+.popular__card__info{
+  color: rgb(156, 77, 244);
+font-size: 20px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
