@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 function Header() {
   return (
-    <div>
+    
         <header className='header'>
           <div className="container">
             <div className="nav">
@@ -15,16 +15,16 @@ function Header() {
               <img className='nav__icon' src={LogoIcon} alt="" /> <h1>Eduvi</h1>
               </Link>
               <Link to={'/shop'}>Shop</Link>
-              <select name="" id="">
+              <select className='nav__select' name="" id="">
                 <option value="forKindergarten" selected>For Kindergarten</option>
               </select>
-              <select name="" id="">
+              <select className='nav__select' name="" id="">
                 <option value="forSchool" selected>For High School</option>
               </select>
-              <select name="" id="">
+              <select className='nav__select' name="" id="">
                 <option value="forCollage" selected>For College</option>
               </select>
-              <select name="" id="">
+              <select className='nav__select' name="" id="">
                 <option value="courses" selected>Courses</option>
               </select>
               <Link to={'/cart'}>Cart (0) <img className='nav__icon' src={BagIcon} alt="" />  </Link>
@@ -32,7 +32,6 @@ function Header() {
             </div>
           </div>
         </header>
-    </div>
   )
 }
 
