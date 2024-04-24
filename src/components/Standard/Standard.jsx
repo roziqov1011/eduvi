@@ -25,13 +25,21 @@ function Standard() {
             </li>
           ))}
         </ul>
-        <ul className="calss">
-          <li className="calss__item">
-            <span className="class__number">1</span>
-            <h3>Standard One</h3>
-            <p>Standard 1 is a foundation Standard that reflects 7 important concepts...</p>
-            <span>Class Details</span>
+        <h2 className="h2">Standard Classes</h2>
+        <ul className="class">
+          {
+            courses__data?.filter((k)=>k.category == active)
+            .map((item,index)=>(
+              <li key={index} className="class__item">
+            <div className="class__div">
+            <button className="course__number">{item.id}</button>
+            <h3>{item.title}</h3>
+            <p>{item.des}</p>
+            <span className="class__details">Class Details</span>
+            </div>
           </li>
+            ))
+          }
         </ul>
       </div>
     </div>
