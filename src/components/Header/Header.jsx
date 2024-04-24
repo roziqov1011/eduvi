@@ -31,9 +31,7 @@ function Header() {
               </option>
             </select>
             <select name="" id="">
-            <option value="courses" selected>
-                Courses
-            </option>
+            <option value="courses">Courses</option>
             </select>
             <Link to={"/cart"}>
               Cart (0) <img className="nav__icon" src={BagIcon} alt="" />{" "}
