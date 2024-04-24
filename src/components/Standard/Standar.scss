@@ -1,12 +1,20 @@
 .standard__list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.standard__item{
     .active{
-        background-color: orangered;
-        padding: 5px 10px;
-        border-radius: 5px;
-        color: white;
-        border: none;
+        .button{
+            color: white;
+            background-color: orangered;
+        }
     }
-    .btn{
-        color: blue;
-    }
+}
+.class__number{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: orangered;
+    color: white;
 }

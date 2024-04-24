@@ -3,6 +3,7 @@ import './Courses.scss'
 import Hero from '../../components/Hero/Hero'
 import banner from '../../img/shopbanner.png'
 import Standard from '../../components/Standard/Standard'
+import { Header } from 'antd/es/layout/layout'
 function Courses() {
   return (
     <div>
