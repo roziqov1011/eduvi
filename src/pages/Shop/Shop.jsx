@@ -138,7 +138,7 @@ function Shop() {
                 >
                   All Books
                 </button>
-                <button
+                <button elment={handleGenreChange}
                   onClick={() => handleGenreChange("Dystopian")}
                   className={currentGenre === "Dystopian" ? "active" : ""}
                 >

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import courses__data from "../Data1/Courses.js";
 
 function Standard() {
-  const [active, setActive] = useState("Dasturlash");
+  const [active, setActive] = useState("Tillar");
 
   let arr = [];
   courses__data.forEach((item) => {
@@ -17,9 +17,9 @@ function Standard() {
         <ul className="standard__list">
           {arr?.map((item, index) => (
             <li key={index}
-              className={active == item ? 'standard__item active':'standard__item'}
+             className={active == item ? 'standard__item active':'standard__item'}
             >
-              <button className='button' onClick={() => setActive(item)}>
+              <button className="button" onClick={()=>setActive(item)}>
                 {item}
               </button>
             </li>

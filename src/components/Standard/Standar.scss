@@ -2,8 +2,6 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
-.standard__item{
     .active{
         .button{
             color: white;
@@ -11,6 +9,7 @@
         }
     }
 }
+
 .h2{
     padding-left: 40px;
 }
