@@ -1,6 +1,6 @@
 .home {
+    position: relative;
     width: 1440px;
-    height: 833px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,12 +19,12 @@
     flex-direction: column;
     width: 607px;
     height: 510px;
-    margin-left: 80px;
+    margin-left: 20px;
 
     .span {
         background-color: rgb(242, 249, 255);
         width: 239px;
-        height: 40px;
+        height: 48px;
         font-size: 20px;
         border-radius: 10px;
         color: rgb(255, 102, 82);
@@ -32,7 +32,7 @@
         padding: 5px 0px;
         font-weight: 500;
         letter-spacing: 0%;
-        box-shadow: 0px 0px 2px rgb(144, 143, 143);
+        box-shadow: 0px 0px 2px rgb(236, 234, 234);
     }
 
     .h1 {
@@ -109,6 +109,7 @@
 }
 
 .home__img__wrap {
+    position: relative;
     width: 668px;
     margin-top: 0px;
     margin-left: 55px;
@@ -134,9 +135,9 @@
     position: absolute;
     width: 80px;
     height: 78.37px;
-    left: 729px;
+    left: -120px;
     right: -729px;
-    top: 131.27px;
+    top: -50px;
     bottom: -131.27px;
     border-radius: 10px;
     box-shadow: 0px 25px 70px 0px rgba(10, 3, 60, 0.15);
@@ -154,10 +155,10 @@
     position: absolute;
     width: 80px;
     height: 78.37px;
-    left: 1227px;
-    right: -639px;
-    top: 189.06px;
-    bottom: 417.31px;
+    left: 370px;
+    right: 133;
+    top: 29.06px;
+    bottom: 548.31px;
     border-radius: 10px;
     box-shadow: 0px 25px 70px 0px rgba(10, 3, 60, 0.15);
     background: rgb(255, 255, 255);
@@ -174,9 +175,9 @@
     position: absolute;
     width: 80px;
     height: 78.37px;
-    left: 822px;
-    right: -802px;
-    top: 447.67px;
+    left: -40px;
+    right: 478px;
+    top: 300px;
     bottom: -447.67px;
     border-radius: 10px;
     box-shadow: 0px 25px 70px 0px rgba(10, 3, 60, 0.15);
@@ -194,12 +195,107 @@
     position: absolute;
     width: 80px;
     height: 78.37px;
-    left: 1357px;
-    right: -1317px;
-    top: 673.96px;
+    left: 500px;
+    right: 43px;
+    top: 513px;
     bottom: -673.96px;
     border-radius: 10px;
     box-shadow: 0px 25px 70px 0px rgba(10, 3, 60, 0.15);
     background: rgb(255, 255, 255);
     padding: 14px 15px;
+}
+
+.classes {
+    margin: 0 auto;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.classes__info {
+    margin: 0 auto;
+    width: 840px;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.classes__title {
+    width: 556px;
+    height: 110px;
+    color: rgb(10, 3, 60);
+    font-family: Metropolis;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 190px;
+}
+
+.classes__text {
+    width: 840px;
+    height: 90px;
+    color: rgb(93, 90, 111);
+    font-family: Metropolis;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.classes__btn {
+    /* bg */
+    position: absolute;
+    width: 162px;
+    height: 60px;
+    left: 501px;
+    right: -601px;
+    top: 470px;
+    bottom: -1222px;
+    border-radius: 10px;
+    background: rgb(156, 77, 244);
+    color: white;
+    // margin-top: -80px;
+}
+
+.classes__call {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.classes__img {
+    width: 1245px;
+    height: 700px;
+    margin-top: 160px;
+}
+
+.call__btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 980px;
+    margin-top: -100px;
+
+    .call__btn {
+        width: 300px;
+        height: 100px;
+        color: rgb(10, 3, 60);
+        font-family: Metropolis;
+        font-size: 25px;
+        font-weight: 600;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0 0;
+    }
 }

@@ -7,6 +7,10 @@ import Brain from '../../assets/img/Idea.svg'
 import Lamp from '../../assets/img/chiroq.svg'
 import Desk from '../../assets/img/doskaIcon.svg'
 import NumberIcon from '../../assets/img/numberIcon.svg'
+import ClassImg from '../../assets/img/Video call.png'
+import ValIcon from '../../assets/img/valumeIcon.svg'
+import liveIcon from '../../assets/img/liveIcon.svg'
+import PlayIcon from '../../assets/img/playButton.svg'
 function Home() {
   return (
     <>
@@ -24,10 +28,10 @@ function Home() {
                 Eduvi is a Global training provider based across the UK that specialises in accredited and bespoke training courses. We crush the barriers togetting a degree.
               </p>
               <div className="home__search">
-                <select className='home__select' name="" id="">
-                  <option value="" selected>Kindergarten</option>
-                  <option value="" >School</option>
-                  <option value="" >Collage</option>
+                <select className='home__select' name="course" id="">
+                  <option value="/kindergarten" >Kindergarten</option>
+                  <option value="/school" >School</option>
+                  <option value="/collage" >Collage</option>
                 </select>
                 <input className='home__input' type="text" placeholder='Class/Course' />
                 <button className='home__search__btn'> <img src={SearchIcon} alt="" /><span>Search</span></button>
@@ -53,9 +57,30 @@ function Home() {
               </div>
             </div>
           </div>
+
+
+          <div className="classes">
+            <div className="classes__info">
+              <h2 className='classes__title'>High quality video, audio
+                & live classes</h2>
+              <p className="classes__text">
+                High-definition video is video of higher resolution and quality than standard-definition. While there is no standardized meaning for high-definition, generally any video image with considerably more than
+                480 vertical scan lines or 576 vertical lines is considered high-definition.
+              </p>
+              <button className='classes__btn'>Visit Courses</button>
+            </div>
+            <div className="classes__call">
+              <img className='classes__img' src={ClassImg} alt="" />
+              <div className="call__btns">
+              <button className='call__btn'><img src={ValIcon} alt="" /> Audio Classes</button>
+              <button className='call__btn'><img src={liveIcon} alt="" />Live Classes</button>
+              <button className='call__btn'><img src={PlayIcon} alt="" /> Audio Classes</button>
+              </div>
+              </div>
+          </div>
         </div>
       </div>
-      
+
     </>
   )
 }
