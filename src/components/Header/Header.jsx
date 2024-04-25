@@ -1,9 +1,9 @@
-import React from 'react'
-import './Header.scss'
-import BagIcon from '../../assets/img/bagIcon.svg'
-import AccIcon from '../../assets/img/accountIcon.svg'
-import LogoIcon from '../../assets/img/LogoIcon.svg'
-import { Link } from 'react-router-dom'
+import React from "react";
+import "./Header.scss";
+import BagIcon from "../../assets/img/bagIcon.svg";
+import AccIcon from "../../assets/img/accountIcon.svg";
+import LogoIcon from "../../assets/img/LogoIcon.svg";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -35,4 +35,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Header;

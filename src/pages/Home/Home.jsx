@@ -11,6 +11,7 @@ import ClassImg from '../../assets/img/Video call.png'
 import ValIcon from '../../assets/img/valumeIcon.svg'
 import liveIcon from '../../assets/img/liveIcon.svg'
 import PlayIcon from '../../assets/img/playButton.svg'
+import Standard from '../../components/Standard/Standard'
 function Home() {
   return (
     <>
@@ -78,6 +79,7 @@ function Home() {
               </div>
               </div>
           </div>
+          <Standard/>
         </div>
       </div>
 
