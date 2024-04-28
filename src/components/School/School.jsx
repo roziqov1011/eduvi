@@ -1,12 +1,7 @@
-import React, { useState } from "react";
 import "./School.scss";
 
 function School() {
-  const [sortBy, setSortBy] = useState("latest");
-
-  const handleChange = (event) => {
-    setSortBy(event.target.value);
-  };
+ 
   return (
     <div className="school">
       <div className="container">
