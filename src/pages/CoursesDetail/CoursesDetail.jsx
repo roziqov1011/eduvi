@@ -95,6 +95,51 @@ function CoursesDetail() {
 
       </div>
 
+
+{/* LEFT */}
+
+<div className="CoursesDetail__left">
+
+        <div class="CoursesDetail__left__box">
+            <div class=" quti">
+                <div class="left">Price</div>
+                <div class="right"><b>$49.00</b></div>
+            </div>
+            <div class="CoursesDetail__left__quti">
+                <div class="left">instructor</div>
+                <div class="right"><b>$49.00</b></div>
+            </div>
+            <div class="CoursesDetail__left__quti">
+                <div class="left">Ratings</div>
+                <div class="right"><b>$49.00</b></div>
+            </div>
+            <div class="CoursesDetail__left__quti">
+                <div class="left">Durations</div>
+                <div class="right"><b>$49.00</b></div>
+            </div>
+            <div class="CoursesDetail__left__quti">
+                <div class="left">Lessons</div>
+                <div class="right"><b>$49.00</b></div>
+            </div>
+            <div class="CoursesDetail__left__quti">
+                <div class="left">Quzzies</div>
+                <div class="right"><b>$49.00</b></div>
+            </div>
+            <div class="CoursesDetail__left__quti">
+                <div class="left">Certificate</div>
+                <div class="right"><b>$49.00</b></div>
+            </div>
+            <div class="CoursesDetail__left__quti">
+                <div class="left">Language</div>
+                <div class="right"><b>$49.00</b></div>
+            </div>
+            <div class="CoursesDetail__left__quti">
+                <div class="left">Access</div>
+                <div class="right"><b>$49.00</b></div>
+            </div>
+        </div>
+    
+</div>
        </div>
         
     </div>
