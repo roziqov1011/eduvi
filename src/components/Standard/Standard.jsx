@@ -1,6 +1,8 @@
 import "./Standar.scss";
 import React, { useState } from "react";
 import courses__data from "../Data1/Courses.js";
+import { Link } from "react-router-dom";
+import CoursesDetail from "../../pages/CoursesDetail/CoursesDetail.jsx";
 
 function Standard() {
   const [active, setActive] = useState("Tillar");
@@ -15,8 +17,8 @@ function Standard() {
     <div className="standard">
       <div className="container">
         <ul className="standard__list">
-          {arr?.map((item, index) => (
-            <li key={index}
+         {arr?.map((item, index) => (
+            <li key={index} 
              className={active == item ? 'standard__item active':'standard__item'}
             >
               <button className="button" onClick={()=>setActive(item)}>
@@ -35,9 +37,9 @@ function Standard() {
             <button className="course__number">{item.id}</button>
             <h3>{item.title}</h3>
             <p>{item.des}</p>
-            <span className="class__details">Class Details</span>
+            <Link to={'/course-detail'} element={<CoursesDetail/>}><span className="class__details">Class Details</span></Link>
             </div>
-          </li>
+              </li>
             ))
           }
         </ul>

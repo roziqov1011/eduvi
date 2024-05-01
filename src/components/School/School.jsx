@@ -7,14 +7,14 @@ function School() {
       <div className="container">
         <h2>Other Courses For High School</h2>
         <ul className="school__list">
-          <div className="input__div">
+          <form className="form">
             <input type="text" placeholder="Serach Class, Course" />
             <button className="search">
               <i class="bi bi-search"></i>Search
             </button>
-          </div>
+          </form>
           <div className="sort__div">
-            <select>
+            <select className="school__select">
               <option value="latest">Latest</option>
               <option value="oldest">Oldest</option>
             </select>

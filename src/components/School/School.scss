@@ -1,0 +1,43 @@
+.school__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 840px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    input{
+        border: none;
+        outline: none;
+        width: 800px;
+    }
+    button{
+        width: 143px;
+        height: 46px;
+        background-color: #9C4DF4;
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 15px;
+        i{
+            font-size: 15px;
+        }
+    }
+}
+.school__select{
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    
+}
